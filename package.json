@@ -1,0 +1,28 @@
+{
+  "name": "express_setup",
+  "version": "1.0.0",
+  "description": "Express Setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src/ src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunwoo0110/Express_Setup"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunwoo0110/Express_Setup/issues"
+  },
+  "homepage": "https://github.com/Sunwoo0110/Express_Setup#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
